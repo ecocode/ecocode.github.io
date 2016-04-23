@@ -1,1 +1,1 @@
-# http://codeinventory.com
+# http://blog.ecocode.net

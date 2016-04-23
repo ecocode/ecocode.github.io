@@ -1,34 +1,34 @@
-title:            CodeInventory
-description:      "Talk is cheap. Show me the code!"
+title:            Ecocode
+description:      "A users blog"
 logo:             logo.png
-disqus_shortname: codeinventorycom
+disqus_shortname: ecocodenet
 share:            true
 dropcap:	   true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	 http://www.codeinventory.com
+url:        	 http://blog.ecocode.net
 
 # Owner/author information
 owner:
-  name:           Amey Jadiye
+  name:           Erik Colson
   avatar:         ameyjadiye.jpg
-  email:          ameyjadiye@gmail.com
+  email:          info@ecocode.net
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
+  description:    Programming with Perl and Emacs and some Home Automation stuff
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        ameyjadiye
-  facebook:       ameyjadiye
-  github:         ameyjadiye    
-  instagram:      ameyjadiye
+  twitter:        ecocode
+  facebook:       ecocode
+  github:         ecocode
+  # instagram:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/+AmeyJadiye
+  google_plus:    https://plus.google.com/u/0/+ecocode
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-46791108-1
-google_verify:      
+# google_analytics:   UA-46791108-1
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -43,7 +43,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Calcutta
+timezone:    Europe/Brussels
 future:      true
 rouge: pygments
 markdown:    kramdown
@@ -61,7 +61,7 @@ kramdown:
   enable_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
