@@ -1,5 +1,5 @@
 title:            Ecocode
-description:      "A users blog"
+description:      "Useful programming and hacking"
 logo:             logo.png
 disqus_shortname: ecocodenet
 share:            true
@@ -8,6 +8,7 @@ dropcap:	   true
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:        	 http://blog.ecocode.net
+excerpt_separator: <!--more-->
 
 # Owner/author information
 owner:
