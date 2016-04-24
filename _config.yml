@@ -12,7 +12,7 @@ url:        	 http://blog.ecocode.net
 # Owner/author information
 owner:
   name:           Erik Colson
-  avatar:         ameyjadiye.jpg
+  avatar:         ECO.png
   email:          info@ecocode.net
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Programming with Perl and Emacs and some Home Automation stuff
