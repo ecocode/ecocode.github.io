@@ -48,11 +48,11 @@ Eventually I figured most of my filtering mailboxes activity indeed concerns act
 
 (defun ec/gnus-project ()
     (interactive)
-    (let (project) (setq project (helm :sources (helm-build-sync-source "Project"
-                                   :candidates ec-active-projects
-                                   :fuzzy-match t)
-                        :buffer "*helm Projects*"))
-    (gnus-group-list-matching 6 project)))
+    (let ((project (helm :sources (helm-build-sync-source "Project"
+                                    :candidates ec-projects
+                                    :fuzzy-match t)
+                         :buffer "*helm Projects*")))
+    (gnus-group-list-matching 6 project t)))
 
 (define-key gnus-group-mode-map (kbd "d") 'ec/gnus-project)
 {% endhighlight %}
